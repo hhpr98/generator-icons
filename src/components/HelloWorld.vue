@@ -1,10 +1,13 @@
 <script lang="ts">
 import { defineProps } from "vue";
 defineProps<{
-  msg: string;
+  msg: String;
 }>();
 export default {
   name: "HelloWorld",
+  props: {
+    msg: String,
+  },
 };
 </script>
 
