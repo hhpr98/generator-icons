@@ -1,7 +1,11 @@
-<script setup lang="ts">
+<script lang="ts">
+import { defineProps } from "vue";
 defineProps<{
   msg: string;
 }>();
+export default {
+  name: "HelloWorld",
+};
 </script>
 
 <template>

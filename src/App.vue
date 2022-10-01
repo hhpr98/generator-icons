@@ -1,6 +1,10 @@
-<script setup lang="ts">
+<script lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
+export default {
+  name: "App",
+  components: { HelloWorld, TheWelcome },
+};
 </script>
 
 <template>
