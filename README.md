@@ -1,2 +1,3 @@
 # generator-icons
-generator icons project
+
+Started with vue + ts + vitest + ESLint + Prettier
